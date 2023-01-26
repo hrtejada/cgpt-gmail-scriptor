@@ -1,0 +1,24 @@
+{
+    "timeZone": "America/Chicago",
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/gmail.addons.execute",
+      "https://www.googleapis.com/auth/gmail.addons.current.message.readonly",
+      "https://www.googleapis.com/auth/spreadsheets",
+      "https://www.googleapis.com/auth/script.storage"
+    ],
+    "gmail": {
+      "name": "Google App Scripts Demo",
+      "logoUrl": "https://www.gstatic.com/images/icons/material/system/1x/receipt_black_24dp.png",
+      "contextualTriggers": [{
+        "unconditional": {
+        },
+        "onTriggerFunction": "getContextualAddOn"
+      }],
+      "primaryColor": "#41f470",
+      "secondaryColor": "#94f441"
+    },
+    "dependencies": {
+    },
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8"
+  }
